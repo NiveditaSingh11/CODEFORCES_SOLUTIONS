@@ -10,6 +10,6 @@ int main(){
             j++;
         }
     }
-    cout<<(j == 5? "yes":"no");
+    cout<<(j == 5? "YES":"NO");
     return 0;
 }
