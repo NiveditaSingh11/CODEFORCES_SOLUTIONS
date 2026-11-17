@@ -16,6 +16,20 @@ int main(){
 
     int taxis = d;
 
+    taxis += c;
+    a= max(0,a-c);
+
+    taxis += b/2;
+    if(b%2 == 1){
+        taxis+=1;
+        a= max(0, a-2);
+    }
+
+    if(a>0){
+        taxis += (a+3)/4;
+    }
+
+    cout<<taxis<<endl;
     return 0;
 
 }
